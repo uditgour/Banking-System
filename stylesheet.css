@@ -8,7 +8,6 @@ body {
 }
 
 a {
-    transition: all 10s ease;
     text-decoration: none;
 }
 
@@ -55,8 +54,8 @@ p {
 
 .navbar-expand-lg .navbar-nav .tm-nav-link {
     font-size: 1.3rem;
-    font-weight: 400;
-    color: rgba(112, 111, 111, 0.959);
+    font-weight: 600;
+    color: rgb(15, 15, 15);
     padding-bottom: 30px;
 }
 
@@ -68,9 +67,12 @@ p {
     margin-right: 0;
 }
 
-.nav-item.active .tm-nav-link,
+.nav-item.active .tm-nav-link {
+    color: cyan
+}
+
 .nav-item:hover .tm-nav-link {
-    color: rgba(112, 111, 111, 0.959);
+    color: cyan;
 }
 
 
@@ -94,7 +96,7 @@ p {
 }
 
 .tm-bg-right {
-    background-color: rgba(231, 246, 252, 0.5);
+    background-color: rgba(231, 246, 252, 0.466);
 }
 
 .tm-bg-controls-wrapper {
@@ -149,7 +151,9 @@ p {
     max-width: 660px;
     margin-top: 50px;
     padding-right: 20px;
-    color: rgb(75, 74, 74);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .tm-about {
